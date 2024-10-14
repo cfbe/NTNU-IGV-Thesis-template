@@ -9,7 +9,7 @@ When you write in \LaTeX, try to just follow the given style. You might not like
 
 A simple equation or variable can be written within sentences using the dollar sign on each side, for example, writing \verb=$a$= will show up as $a$. The usual way of including an equation on a separate line is either by using double dollar signs, such as this:
 $$E = mc^2$$
-or using the \texttt{equation} environment:
+or by using the \texttt{equation} environment:
 \begin{equation}
     E=mc^2
     \label{eq:Einstein}
@@ -45,7 +45,7 @@ These two figures were created using this simple Python code:
 
 \lstinputlisting[firstline=1, lastline=17,language=Python]{Figures/createPlot.py}
 
-So when you create figures using Python, try to save them as pdf, as use the tight boundaries to save some space around the figures.
+So when you create figures using Python, try to save them in pdf format, and use the tight boundaries to save some space around the figures.
 
 \begin{figure}[H]
   \centering
@@ -56,7 +56,7 @@ So when you create figures using Python, try to save them as pdf, as use the tig
 \label{fig:qualityDiff}
 \end{figure}
 
-With Python you could change the size of your figures. This is helpful for getting the right size of text within figures. In Figure \ref{fig:SizeDiff} we compare two different sizes.
+With Python, you can change the size of your figures. This helps get the right size of the text within the figures. In Figure \ref{fig:SizeDiff} we compare two different sizes.
 
 \begin{figure}[H]
   \centering
@@ -72,7 +72,7 @@ With Python you could change the size of your figures. This is helpful for getti
 
 This document has included a package for chemical symbols, \texttt{mchem}. When you write \verb=\ce{CO2}= you will get the chemical notation as \ce{CO2}.
 
-For units we use the \texttt{siunitx} package. If you write \verb=\SI{10}{\meter\per\second\squared}= you get \SI{10}{\meter\per\second\squared}. The package can be used within math mode (inside the dollar signs). It automatically changes to a fixed notation for numbers, such as \verb=\SI{1E5}{\meter}= gives \SI{1E5}{\meter}.
+For units, we use the \texttt{siunitx} package. If you write \verb=\SI{10}{\meter\per\second\squared}= you get \SI{10}{\meter\per\second\squared}. The package can be used within math mode (inside the dollar signs). It automatically changes to a fixed notation for numbers, such as \verb=\SI{1E5}{\meter}= gives \SI{1E5}{\meter}.
 
 \section{Tables}
 
